@@ -1,4 +1,4 @@
-<mxfile modified="2023-01-19T14:29:24.234Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="vM_87XDx6vOcUgLjmDxP" version="20.8.6" type="github">
+<mxfile modified="2023-01-19T14:32:21.937Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="bXUNom7sn8tuUmC0vEDo" version="20.8.6" type="github">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Page-1">
     <mxGraphModel dx="2074" dy="1188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -254,6 +254,15 @@
         </mxCell>
         <mxCell id="qvMqanULMdAWcoUPuKCA-72" value="&lt;ul&gt;&lt;li&gt;Online analytical processing (OLAP).&lt;/li&gt;&lt;li&gt;Have fewer users, longer response times and used for complex transactions.&lt;/li&gt;&lt;li&gt;Azure Analysis Services.&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1080" y="467" width="430" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="qvMqanULMdAWcoUPuKCA-73" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.sql_database;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="113" y="330" width="22.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qvMqanULMdAWcoUPuKCA-75" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.json_2;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="463.75" y="337.4" width="48.5" height="15.2" as="geometry" />
+        </mxCell>
+        <mxCell id="qvMqanULMdAWcoUPuKCA-76" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_blob;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="450" y="450" width="27.78" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
