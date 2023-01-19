@@ -1,6 +1,6 @@
-<mxfile modified="2023-01-19T16:23:56.246Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="pe2zOBDCwXKAqvVlYMmI" version="20.8.6" type="github">
+<mxfile modified="2023-01-19T16:56:48.428Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="OjZH09aFe3XzeHTMyhsO" version="20.8.6" type="github">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Data Engineering on Microsoft Azure">
-    <mxGraphModel dx="2074" dy="1188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1157" dy="1188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -311,6 +311,9 @@
         </mxCell>
         <mxCell id="qvMqanULMdAWcoUPuKCA-104" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Synapse_Analytics.svg;" vertex="1" parent="1">
           <mxGeometry x="528.16" y="955.5" width="30" height="34.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qvMqanULMdAWcoUPuKCA-106" value="&lt;ul&gt;&lt;li&gt;Data factory has many ingestion methods.&lt;/li&gt;&lt;li&gt;Copy Activity for code free ingestion with no transformation.&lt;/li&gt;&lt;li&gt;Ingest using compute resources can be used for analytics pipelines. Can use Azure Functions, HDInsight, Databricks or many others.&lt;/li&gt;&lt;li&gt;Can lift and shift existing SSIS workloads.&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1000" width="390" height="380" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
