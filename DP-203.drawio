@@ -1,4 +1,4 @@
-<mxfile modified="2023-01-19T16:18:45.786Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="aoMpPuZiNCi4BgK8wkgI" version="20.8.6" type="github">
+<mxfile modified="2023-01-19T16:20:33.637Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="xQma-9N1rdOj833iT8tN" version="20.8.6" type="github">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Data Engineering on Microsoft Azure">
     <mxGraphModel dx="2074" dy="1188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -302,6 +302,15 @@
         </mxCell>
         <mxCell id="qvMqanULMdAWcoUPuKCA-98" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.access_control;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="558.16" y="549" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="qvMqanULMdAWcoUPuKCA-102" value="&lt;b&gt;Data integration at scale with Azure Data Factory or Azure Synapse Pipeline&lt;/b&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="10" y="960" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qvMqanULMdAWcoUPuKCA-103" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Data_Factory.svg;" vertex="1" parent="1">
+          <mxGeometry x="490" y="960" width="28" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="qvMqanULMdAWcoUPuKCA-104" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Synapse_Analytics.svg;" vertex="1" parent="1">
+          <mxGeometry x="528.16" y="955.5" width="30" height="34.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
