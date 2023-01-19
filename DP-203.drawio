@@ -1,4 +1,4 @@
-<mxfile modified="2023-01-19T11:40:57.674Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="jMwEa2h02bWfxKVq3bAC" version="20.8.6" type="github">
+<mxfile modified="2023-01-19T12:20:18.508Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="zj-B1iq1B8NTIjfeP8xq" version="20.8.6" type="github">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Page-1">
     <mxGraphModel dx="2074" dy="1188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -10,8 +10,8 @@
         <mxCell id="qvMqanULMdAWcoUPuKCA-2" value="&lt;b&gt;Azure for the Data Engineer&lt;/b&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="10" y="28" width="410" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qvMqanULMdAWcoUPuKCA-3" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Systems and devices now generating significantly more data.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;New technologies, roles, approaches for working with data.&lt;/li&gt;&lt;li&gt;Data engineers maintain data systems that are accurate, highly secure, and constantly available.&lt;br&gt;&lt;/li&gt;&lt;li&gt;Azure provides a comprehensive and rich set of data technologies that can store, transform, process, analyse, and visualise data securely.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="10" y="50" width="440" height="116" as="geometry" />
+        <mxCell id="qvMqanULMdAWcoUPuKCA-3" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Systems and devices now generating significantly more data.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;New technologies, roles, approaches for working with data.&lt;/li&gt;&lt;li&gt;Data engineers maintain data systems that are accurate, highly secure, and constantly available.&lt;br&gt;&lt;/li&gt;&lt;li&gt;Azure provides a comprehensive and rich set of data technologies that can store, transform, process, analyse, and visualise data securely.&lt;br&gt;&lt;/li&gt;&lt;li&gt;Some SQL Server professional jobs will transform to be Data Engineer.&lt;/li&gt;&lt;li&gt;Old Process of ETL will become ELT.&lt;/li&gt;&lt;li&gt;Use cases; web and mobile applications, healthcare, IoT etc.&lt;/li&gt;&lt;li&gt;Data engineers work with structured and unstructured data more.&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="50" width="450" height="190" as="geometry" />
         </mxCell>
         <mxCell id="qvMqanULMdAWcoUPuKCA-4" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="540" y="40" width="570" height="282" as="geometry" />
