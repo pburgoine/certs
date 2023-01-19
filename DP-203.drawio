@@ -1,4 +1,4 @@
-<mxfile modified="2023-01-19T16:17:35.174Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="RnxJZg-eDtnnjFKykEe0" version="20.8.6" type="github">
+<mxfile modified="2023-01-19T16:18:45.786Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="aoMpPuZiNCi4BgK8wkgI" version="20.8.6" type="github">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Data Engineering on Microsoft Azure">
     <mxGraphModel dx="2074" dy="1188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -299,6 +299,9 @@
         </mxCell>
         <mxCell id="qvMqanULMdAWcoUPuKCA-95" value="&lt;ul&gt;&lt;li&gt;Create Azure Storage accounts before deploying your app.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Create containers in your application as needed.&lt;br&gt;&lt;/li&gt;&lt;li&gt;A storage account connection string contains all the information needed to connect to Blob storage, most importantly the account name and the account key.&lt;br&gt;&lt;/li&gt;&lt;li&gt;Getting a blob reference does not make any calls to Azure Storage, it simply creates an object locally that can work with a stored blob.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="820.4399999999999" y="574" width="300" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="qvMqanULMdAWcoUPuKCA-98" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.access_control;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="558.16" y="549" width="32" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
