@@ -1,4 +1,4 @@
-<mxfile modified="2023-01-19T14:12:26.016Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="dQf5MXpml-iThLH-iQn7" version="20.8.6" type="github">
+<mxfile modified="2023-01-19T14:29:24.234Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="vM_87XDx6vOcUgLjmDxP" version="20.8.6" type="github">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Page-1">
     <mxGraphModel dx="2074" dy="1188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -223,19 +223,37 @@
           <mxGeometry x="10" y="330" width="410" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qvMqanULMdAWcoUPuKCA-59" value="&lt;ul&gt;&lt;li&gt;Relational data; rows and columns.&lt;/li&gt;&lt;li&gt;All data has same schema.&lt;/li&gt;&lt;li&gt;Queried using SQL.&lt;/li&gt;&lt;li&gt;Useful for CRM systems, reservations, inventory management etc.&lt;/li&gt;&lt;li&gt;Stored in database tables with key columns to join to other tables.&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="10" y="360" width="410" height="130" as="geometry" />
+          <mxGeometry x="10" y="347" width="300" height="130" as="geometry" />
         </mxCell>
         <mxCell id="qvMqanULMdAWcoUPuKCA-61" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;Semi-structured Data&lt;/b&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="406" y="330" width="410" height="30" as="geometry" />
+          <mxGeometry x="331" y="330" width="410" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qvMqanULMdAWcoUPuKCA-62" value="&lt;ul&gt;&lt;li&gt;Contains tags for example key value pairs.&lt;/li&gt;&lt;li&gt;Non-relational or not only SQL (NoSQL) data.&lt;/li&gt;&lt;li&gt;Defined by a data serialization language; converted into a format for transfer or storage.&lt;/li&gt;&lt;li&gt;Common types are XML, JSON and YAML.&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="406" y="360" width="514" height="130" as="geometry" />
+          <mxGeometry x="331" y="347" width="314" height="130" as="geometry" />
         </mxCell>
         <mxCell id="qvMqanULMdAWcoUPuKCA-63" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;Unstructured Data&lt;/b&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="920" y="330" width="410" height="30" as="geometry" />
+          <mxGeometry x="329" y="450" width="410" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qvMqanULMdAWcoUPuKCA-64" value="&lt;ul&gt;&lt;li&gt;Undefined data.&lt;/li&gt;&lt;li&gt;Can be media files (photos, videos, audio), documents, text files, log files.&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="920" y="360" width="460" height="130" as="geometry" />
+          <mxGeometry x="329" y="465" width="310" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="qvMqanULMdAWcoUPuKCA-65" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;Transactions&lt;/b&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="700" y="330" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qvMqanULMdAWcoUPuKCA-66" value="&lt;ul&gt;&lt;li&gt;Transactions can be used to update group updates to data.&lt;/li&gt;&lt;li&gt;If one event fails, entire transaction can be rolled back.&lt;/li&gt;&lt;li&gt;If a change to one data affects another, need ACID transactions.&lt;/li&gt;&lt;li&gt;Atomicity: transaction executed once.&lt;/li&gt;&lt;li&gt;Consistency: data consistent before and after transaction.&lt;/li&gt;&lt;li&gt;Isolation: transactions are unaffected by other transactions.&lt;/li&gt;&lt;li&gt;Durability: changes are permanent.&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="347" width="430" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="qvMqanULMdAWcoUPuKCA-69" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;OLTP&lt;/b&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="330" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qvMqanULMdAWcoUPuKCA-70" value="&lt;ul&gt;&lt;li&gt;Transactional databases are called online transaction processing (OLTP) systems.&lt;/li&gt;&lt;li&gt;Typically support many users, quick response times, can handle large data volume.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Highly available and support simple transactions.&lt;/li&gt;&lt;li&gt;Azure SQL Database.&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1081" y="347" width="430" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="qvMqanULMdAWcoUPuKCA-71" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;OLAP&lt;/b&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="450" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qvMqanULMdAWcoUPuKCA-72" value="&lt;ul&gt;&lt;li&gt;Online analytical processing (OLAP).&lt;/li&gt;&lt;li&gt;Have fewer users, longer response times and used for complex transactions.&lt;/li&gt;&lt;li&gt;Azure Analysis Services.&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="467" width="430" height="133" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
