@@ -1,4 +1,4 @@
-<mxfile modified="2023-01-19T15:25:33.659Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="HIW2NtwTlzPY8QCoTn2s" version="20.8.6" type="github">
+<mxfile modified="2023-01-19T15:54:43.383Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="IDfnwJtP97rg73lDBTSD" version="20.8.6" type="github">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Page-1">
     <mxGraphModel dx="2074" dy="1188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -261,7 +261,7 @@
         <mxCell id="qvMqanULMdAWcoUPuKCA-77" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;Storage Accounts&lt;/b&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="10" y="550" width="410" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qvMqanULMdAWcoUPuKCA-78" value="&lt;ul&gt;&lt;li&gt;Azure Storage has 4 services; Azure Blobs, Azure Files, Azure Queues and Azure Tables.&lt;/li&gt;&lt;li&gt;A storage account is a container that groups storage services together.&lt;/li&gt;&lt;li&gt;A storage account is part of a Resource Group.&lt;/li&gt;&lt;li&gt;Azure SQL and Azure Cosmos DB are managed as independent resources.&lt;/li&gt;&lt;li&gt;Storage account defines policy such as subscription, location, performance, replication, access, secure transfer and virtual networks.&lt;/li&gt;&lt;li&gt;Use Resource Manager for deploying, can group collection of resources as single unit.&lt;/li&gt;&lt;li&gt;StorageV2 (general purpose v2) is latest, storage (general purpose v1) and blob storage are legacy accounts.&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="qvMqanULMdAWcoUPuKCA-78" value="&lt;ul&gt;&lt;li&gt;Azure Storage has 4 services; Azure Blobs, Azure Files, Azure Queues and Azure Tables.&lt;/li&gt;&lt;li&gt;A storage account is a container that groups storage services together.&lt;/li&gt;&lt;li&gt;A storage account is part of a Resource Group.&lt;/li&gt;&lt;li&gt;Azure SQL and Azure Cosmos DB are managed as independent resources.&lt;/li&gt;&lt;li&gt;Storage account defines policy such as subscription, location, performance, replication, access, secure transfer and virtual networks.&lt;/li&gt;&lt;li&gt;Use Resource Manager for deploying, can group collection of resources as single unit.&lt;/li&gt;&lt;li&gt;StorageV2 (general purpose v2) is latest, storage (general purpose v1) and blob storage are legacy accounts.&lt;/li&gt;&lt;li&gt;Storage account name is globally unique.&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="10" y="570" width="300" height="190" as="geometry" />
         </mxCell>
         <mxCell id="qvMqanULMdAWcoUPuKCA-79" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_blob;fontSize=12;" vertex="1" parent="1">
@@ -287,6 +287,15 @@
         </mxCell>
         <mxCell id="qvMqanULMdAWcoUPuKCA-89" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Cosmos_DB.svg;" vertex="1" parent="1">
           <mxGeometry x="251.15999999999997" y="550" width="34" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="qvMqanULMdAWcoUPuKCA-90" value="&lt;ul&gt;&lt;li&gt;Blobs: scalable object store for text and binary data. Block blobs for text/binary files. Page blob for storage for VHDs and VMs. Append blobs for logging.&lt;/li&gt;&lt;li&gt;Files: managed file shares for cloud or on prem. Store config for VMs and tools, log files. Share data between on prem and cloud.&lt;/li&gt;&lt;li&gt;Queues: messaging store for messaging.&amp;nbsp; between application components.&lt;/li&gt;&lt;li&gt;Table Storage: NoSQL store for schema-less storage of structured data.&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="571" width="300" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="qvMqanULMdAWcoUPuKCA-91" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;Storage Security Features&lt;/b&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="690" y="550" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qvMqanULMdAWcoUPuKCA-92" value="&lt;ul&gt;&lt;li&gt;Data is encrypted at rest.&lt;/li&gt;&lt;li&gt;Can enable transport level security between azure and client. Can enforce HTTPS using REST APIs.&lt;/li&gt;&lt;li&gt;Supports cross domain access through cross-origin resource sharing (CORS).&lt;/li&gt;&lt;li&gt;Role based access control or Azure Active directory. Can assign RBAC roles to security principal or manage identity.&lt;/li&gt;&lt;li&gt;Can audit via Storage Analytics.&lt;/li&gt;&lt;li&gt;Storage accounts have two account keys for access that can be refreshed).&lt;/li&gt;&lt;li&gt;Use SAS shared access signature for untrusted and third party apps.&lt;/li&gt;&lt;li&gt;Can use SAS with proxy or allow direct access to storage.&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="645" y="571" width="300" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
