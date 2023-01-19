@@ -1,4 +1,4 @@
-<mxfile modified="2023-01-19T15:54:43.383Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="IDfnwJtP97rg73lDBTSD" version="20.8.6" type="github">
+<mxfile modified="2023-01-19T16:00:19.581Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="u81kuFO490k3VctowJHu" version="20.8.6" type="github">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Page-1">
     <mxGraphModel dx="2074" dy="1188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -296,6 +296,9 @@
         </mxCell>
         <mxCell id="qvMqanULMdAWcoUPuKCA-92" value="&lt;ul&gt;&lt;li&gt;Data is encrypted at rest.&lt;/li&gt;&lt;li&gt;Can enable transport level security between azure and client. Can enforce HTTPS using REST APIs.&lt;/li&gt;&lt;li&gt;Supports cross domain access through cross-origin resource sharing (CORS).&lt;/li&gt;&lt;li&gt;Role based access control or Azure Active directory. Can assign RBAC roles to security principal or manage identity.&lt;/li&gt;&lt;li&gt;Can audit via Storage Analytics.&lt;/li&gt;&lt;li&gt;Storage accounts have two account keys for access that can be refreshed).&lt;/li&gt;&lt;li&gt;Use SAS shared access signature for untrusted and third party apps.&lt;/li&gt;&lt;li&gt;Can use SAS with proxy or allow direct access to storage.&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="645" y="571" width="300" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="qvMqanULMdAWcoUPuKCA-93" value="&lt;ul&gt;&lt;li&gt;By default network access allows all connections.&lt;/li&gt;&lt;li&gt;Can restrict access to specific IP addresses, ranges, or virtual networks.&lt;/li&gt;&lt;li&gt;Microsoft Defender provides extra security intelligence and can alert anomalies in activity.&lt;/li&gt;&lt;li&gt;Azure Data Lake Storage Gen2 also provides ACLs that are POSIX-compliant.&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="956.55" y="571" width="300" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
