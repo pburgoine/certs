@@ -1,4 +1,4 @@
-<mxfile modified="2023-01-19T16:20:33.637Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="xQma-9N1rdOj833iT8tN" version="20.8.6" type="github">
+<mxfile modified="2023-01-19T16:23:56.246Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="pe2zOBDCwXKAqvVlYMmI" version="20.8.6" type="github">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Data Engineering on Microsoft Azure">
     <mxGraphModel dx="2074" dy="1188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -256,7 +256,7 @@
           <mxGeometry x="850" y="472" width="310" height="133" as="geometry" />
         </mxCell>
         <mxCell id="qvMqanULMdAWcoUPuKCA-75" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.json_2;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="397.11" y="335.9" width="48.5" height="15.2" as="geometry" />
+          <mxGeometry x="381.91" y="335.9" width="48.5" height="15.2" as="geometry" />
         </mxCell>
         <mxCell id="qvMqanULMdAWcoUPuKCA-77" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;Storage Accounts&lt;/b&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="10" y="550" width="410" height="30" as="geometry" />
