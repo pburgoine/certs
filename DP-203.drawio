@@ -1,4 +1,4 @@
-<mxfile modified="2023-01-19T14:51:31.554Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="sD0kDvPo2qFpg5fuh33O" version="20.8.6" type="github">
+<mxfile modified="2023-01-19T15:15:45.305Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="7u1U9mfe-ZVOkiMG0oAW" version="20.8.6" type="github">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Page-1">
     <mxGraphModel dx="2074" dy="1188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -255,14 +255,32 @@
         <mxCell id="qvMqanULMdAWcoUPuKCA-72" value="&lt;ul&gt;&lt;li&gt;Online analytical processing (OLAP).&lt;/li&gt;&lt;li&gt;Have fewer users, longer response times and used for complex transactions.&lt;/li&gt;&lt;li&gt;Azure Analysis Services.&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1080" y="467" width="430" height="133" as="geometry" />
         </mxCell>
-        <mxCell id="qvMqanULMdAWcoUPuKCA-73" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.sql_database;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="113" y="330" width="22.5" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="qvMqanULMdAWcoUPuKCA-75" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.json_2;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="463.75" y="337.4" width="48.5" height="15.2" as="geometry" />
         </mxCell>
-        <mxCell id="qvMqanULMdAWcoUPuKCA-76" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_blob;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="450" y="451" width="27.78" height="25" as="geometry" />
+        <mxCell id="qvMqanULMdAWcoUPuKCA-77" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;Storage Accounts&lt;/b&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="10" y="550" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qvMqanULMdAWcoUPuKCA-78" value="&lt;ul&gt;&lt;li&gt;Azure Storage has 4 services; Azure Blobs, Azure Files, Azure Queues and Azure Tables&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="570" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="qvMqanULMdAWcoUPuKCA-79" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_blob;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="202.16" y="550" width="33.33" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qvMqanULMdAWcoUPuKCA-80" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_queue;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="234.83" y="550" width="33.33" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qvMqanULMdAWcoUPuKCA-81" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_table;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="135.50000000000003" y="550" width="33.33" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qvMqanULMdAWcoUPuKCA-84" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage_blob;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="168.83" y="550" width="33.33" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qvMqanULMdAWcoUPuKCA-86" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/BlobBlock.svg;" vertex="1" parent="1">
+          <mxGeometry x="444" y="450" width="30.95" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="qvMqanULMdAWcoUPuKCA-87" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.storage;pointerEvents=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="116.25" y="330" width="33.75" height="27" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
