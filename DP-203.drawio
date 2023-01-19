@@ -1,4 +1,4 @@
-<mxfile modified="2023-01-19T14:02:29.491Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="U-DVvaUbsPh1gZySrmOq" version="20.8.6" type="github">
+<mxfile modified="2023-01-19T14:12:26.016Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="dQf5MXpml-iThLH-iQn7" version="20.8.6" type="github">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Page-1">
     <mxGraphModel dx="2074" dy="1188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -222,8 +222,20 @@
         <mxCell id="qvMqanULMdAWcoUPuKCA-58" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;Structured Data&lt;/b&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="10" y="330" width="410" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qvMqanULMdAWcoUPuKCA-59" value="&lt;ul&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="10" y="360" width="490" height="220" as="geometry" />
+        <mxCell id="qvMqanULMdAWcoUPuKCA-59" value="&lt;ul&gt;&lt;li&gt;Relational data; rows and columns.&lt;/li&gt;&lt;li&gt;All data has same schema.&lt;/li&gt;&lt;li&gt;Queried using SQL.&lt;/li&gt;&lt;li&gt;Useful for CRM systems, reservations, inventory management etc.&lt;/li&gt;&lt;li&gt;Stored in database tables with key columns to join to other tables.&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="360" width="410" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="qvMqanULMdAWcoUPuKCA-61" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;Semi-structured Data&lt;/b&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="406" y="330" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qvMqanULMdAWcoUPuKCA-62" value="&lt;ul&gt;&lt;li&gt;Contains tags for example key value pairs.&lt;/li&gt;&lt;li&gt;Non-relational or not only SQL (NoSQL) data.&lt;/li&gt;&lt;li&gt;Defined by a data serialization language; converted into a format for transfer or storage.&lt;/li&gt;&lt;li&gt;Common types are XML, JSON and YAML.&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="406" y="360" width="514" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="qvMqanULMdAWcoUPuKCA-63" value="&lt;b style=&quot;font-size: 12px;&quot;&gt;Unstructured Data&lt;/b&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="920" y="330" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qvMqanULMdAWcoUPuKCA-64" value="&lt;ul&gt;&lt;li&gt;Undefined data.&lt;/li&gt;&lt;li&gt;Can be media files (photos, videos, audio), documents, text files, log files.&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="360" width="460" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
