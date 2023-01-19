@@ -1,4 +1,4 @@
-<mxfile modified="2023-01-19T12:20:18.508Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="zj-B1iq1B8NTIjfeP8xq" version="20.8.6" type="github">
+<mxfile modified="2023-01-19T13:07:30.031Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="6z6aF6fcemNnmEg7WI0f" version="20.8.6" type="github">
   <diagram id="WI9T0HZ2pTsCkuznbFz-" name="Page-1">
     <mxGraphModel dx="2074" dy="1188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -195,6 +195,9 @@
           <mxGeometry x="379" width="191" height="27" as="geometry">
             <mxRectangle width="191" height="27" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="qvMqanULMdAWcoUPuKCA-49" value="&lt;b&gt;Store Data in Azure&lt;/b&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="340" width="410" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
